@@ -20,4 +20,5 @@
   - 'git add 파일명' ---> 버전관리를 위한 commit단계로 add한다. 이제부터 이 파일을 버전관리 한다는 의미.
 
 * 버전만들기 (commit)
+  - 최초 버전을 만들때는 나의 정보를 셋팅해준다. (git config --global user.email hyun0238@gmail.com)
   - 
