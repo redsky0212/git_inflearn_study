@@ -1,0 +1,15 @@
+* Git사용순서(cmd사용)
+  -- 전제조건
+    (
+        pc에 git설치(client) (http://git-scm.com/download/win)-window용
+        github(server)필요 (자체구축, github.com(h***8@g*******m, j****), Bitbucket 등)
+    )
+
+ 1. local PC에 아무곳이나 작업폴더 생성하여 git저장소로 사용할 공간을 만든다.
+ 2. 생성한 프로젝트 폴더에 아무파일이나 파일을 생성한다.
+ 3. 해당 위치에서 git init 명령어 실행  --> .git 폴더가 생성되고 git을 사용할 준비가 됨.
+ ----- 여기까지가 로컬PC에 git 셋팅 ---------------------------
+
+ 4. github나 git저장소에 저장소를 생성한다.
+ 5. git remote명령어를 통해 저장소와 연결 접속 한다. (git remote add origin git주소)
+ 6. 이 후 다양한 git 명령어 실행 가능 (push, commit 등)

@@ -1,0 +1,4 @@
+**** git 사용 인프런 스터디
+
+* https://git-scm.com 에서 다운로드 후 설치.
+* https://codeonweb.com (여러가지 코딩 공부를 할 수 있는 사이트. 회원가입 필요.)
