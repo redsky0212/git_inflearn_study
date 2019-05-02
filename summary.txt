@@ -102,3 +102,9 @@
   - git stash drop ( 최신 stash값을 삭제한다. )
   - git stash list ( 저장되어있는 stash 값 )
 
+* branch 충돌해결
+  - 다른 branch의 같은 파일을 수정하고 두개의 branch를 merge를 할경우 충돌이 발생한다.
+  - 현재 branch(HEAD)가 위치한 브랜치에서 충돌이 발생한 파일을 열고 <<<<<<HEAD로 생성된 소스를 알맞게 수정하고 저장한다.
+  - 수정 후 ' git add 파일명 ' 실행하여 add하면 파일이 초록색으로 바뀐다.
+  - 최종 'git commit'을 실행하여 마무리한다.
+
