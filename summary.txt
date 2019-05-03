@@ -117,3 +117,7 @@
   - git reset --soft  커밋된것만 reset하고(repository만 삭제) staging 쪽에는 그대로 남아있다.
   - git reset --mixed 커밋과, stagin이 reset되고 working directory에는 그대로 남아있다.
   - git reset --hard   모든 영역이 초기화 된다.
+
+* merge & 충돌(conflict)
+  - 충돌이 발생시 직접 파일을 수정할 수도 있지만 여기서는 그렇게 하지 않고 툴을 사용해본다.
+  - git config --global merge.tool kdiff3(운영체제마다 다르므로 검색해서 셋팅을 해야한다.)
