@@ -108,3 +108,12 @@
   - 수정 후 ' git add 파일명 ' 실행하여 add하면 파일이 초록색으로 바뀐다.
   - 최종 'git commit'을 실행하여 마무리한다.
 
+* reset checkout
+  - ( git reset --hard 커밋id ) 실행한 커밋으로 reset된다. (현재 branch의 최신커밋을 바꾸는 행위)
+  - 실행한 reset을 다시 취소하고싶을때. ( git reset --hard ORIG_HEAD )  --> ORIG_HEAD는 모든 커밋행위를 기록해놓은곳.
+  - ( git reflog ) 현재까지 모든 실행 명령을 볼 수 있다.
+
+* git reset의 옵션에 관하여
+  - git reset --soft  커밋된것만 reset하고(repository만 삭제) staging 쪽에는 그대로 남아있다.
+  - git reset --mixed 커밋과, stagin이 reset되고 working directory에는 그대로 남아있다.
+  - git reset --hard   모든 영역이 초기화 된다.
